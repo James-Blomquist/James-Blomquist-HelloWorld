@@ -11,8 +11,22 @@ public class HelloWorld {
      * You should use the test results to check for differences.
      * 
      * @return "Hello, world!"
-     */
-    public String sayHello(){
-        return "change me";
+     *
+     *public String sayHello(){
+     *   return "change me";
+      *}
+      */
+
+      public String sayHello()
+    {
+        return "Hello, world!"; 
     }
+ 
+  public static void main(String [] args)
+  { 
+    HelloWorld hW = new HelloWorld();
+    System.out.print(hW.sayHello()); 
+  }
+
+
 }
